@@ -1,0 +1,8 @@
+
+output-format = "concise"
+target-version = "py39"
+
+[lint]
+select = ["B", "D", "E","ERA", "F", "I", "SIM", "W", "RUF", "FURB", "C4"]
+ignore = ["B008", "D205", "E501", "F403", "SIM115", "RUF006", "RUF012"]
+pydocstyle.convention = "google"
