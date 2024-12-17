@@ -11,14 +11,14 @@ version = "0.0.1"
 description = "Reflex custom component mouse-track"
 readme = "README.md"
 license = { text = "Apache-2.0" }
-requires-python = ">=3.8"
-authors = [{ name = "Your Name", email = "YOUREMAIL@domain.com" }]
+requires-python = ">=3.9"
+authors = [{ name = "Your Name", email = "thomas.brandeho@gmail.com" }]
 keywords = [
     "reflex",
     "reflex-custom-components"]
 
 dependencies = [
-    "reflex>=0.4.2"
+    "reflex>=0.6.7"
 ]
 
 classifiers = [
@@ -26,7 +26,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com"
+Homepage = "https://github.com/Lendemor/reflex-mouse-track/"
 
 [project.optional-dependencies]
 dev = ["build", "twine"]

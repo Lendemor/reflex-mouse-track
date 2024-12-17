@@ -88,7 +88,7 @@ def selecting_area():
     return rx.cond(
         MouseTrackState.selecting,
         rx.box(
-            border="2px solid red",
+            border="2px dashed red",
             radius="full",
             width=abs(MouseTrackState.top_left.x - MousePosition.x),
             height=abs(MouseTrackState.top_left.y - MousePosition.y),
